@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
@@ -16,15 +17,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO </a></li>
-                    <li><a href="#sobremi">SOBRE MI </a></li>
-                    <li><a href="#skills">SKILLS </a></li>
-                    <li><a href="#curriculum">CURRICULUM </a></li>
-                    <li><a href="#portfolio">PORTFOLIO </a></li>
-                    <li><a href="#contacto">CONTACTO </a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO </a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI </a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS </a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM </a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO </a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO </a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -33,7 +34,7 @@
      <!-- SECCION INICIO -->
      <section id="inicio" class="inicio">
         <div class = "contenido-banner">
-            <div class = "contenido-img">
+            <div class = "contenedor-img">
                 <img src="img/hero.png" alt="">
             </div>
             <h1>FERNANDO HUANCA</h1>
@@ -244,11 +245,7 @@
                         <h4>Arte y Multimedia</h4>
                         <span class="casa">Universidad de Oxford</span>
                         <span class="fecha">2005 - 2008</span>
-                        <p>
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                        </p>
+                        <p>Hola a todos, esta es una prueba para mi pagina web, creo que hace un momento esto no funcionaba, pero solo fui por que escribí una cadena muy grande de caractereeees, toy bien sonso :,v</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -257,11 +254,7 @@
                         <h4>Arte y Multimedia</h4>
                         <span class="casa">Universidad de Oxford</span>
                         <span class="fecha">2005 - 2008</span>
-                        <p>
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                        </p>
+                        <p>Hola a todos, esta es una prueba para mi pagina web, creo que hace un momento esto no funcionaba, pero solo fui por que escribí una cadena muy grande de caractereeees, toy bien sonso :,v</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -270,11 +263,7 @@
                         <h4>Arte y Multimedia</h4>
                         <span class="casa">Universidad de Oxford</span>
                         <span class="fecha">2005 - 2008</span>
-                        <p>
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                        </p>
+                        <p>Hola a todos, esta es una prueba para mi pagina web, creo que hace un momento esto no funcionaba, pero solo fui por que escribí una cadena muy grande de caractereeees, toy bien sonso :,v</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -287,11 +276,16 @@
                         <h4>Front Developer</h4>
                         <span class="casa">Nombre de Compañia</span>
                         <span class="fecha">2005 - 2008</span>
-                        <p>
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                        </p>
+                        <p>Hola a todos, esta es una prueba para mi pagina web, creo que hace un momento esto no funcionaba, pero solo fui por que escribí una cadena muy grande de caractereeees, toy bien sonso :,v</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Hola a todos, esta es una prueba para mi pagina web, creo que hace un momento esto no funcionaba, pero solo fui por que escribí una cadena muy grande de caractereeees, toy bien sonso :,v</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -300,31 +294,12 @@
                         <h4>Front Developer</h4>
                         <span class="casa">Nombre de Compañia</span>
                         <span class="fecha">2005 - 2008</span>
-                        <p>
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                        </p>
+                        <p>Hola a todos, esta es una prueba para mi pagina web, creo que hace un momento esto no funcionaba, pero solo fui por que escribí una cadena muy grande de caractereeees, toy bien sonso :,v</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañia</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                            adsfasdfasdfadsgadsgsfsagadsgasgadfgdfgsdfgasdgasfg
-                        </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-
                 </div>
-
             </div>
         </div>
       </section>
@@ -432,5 +407,6 @@
                 <a href="#"><i class="fa-solid fa-rss"></i></a>
             </div>
         </footer>
+        <script src="script.js"></script>
 </body>
 </html>
