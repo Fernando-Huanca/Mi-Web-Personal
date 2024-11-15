@@ -281,7 +281,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 60%;}
 }
 .skills .skill .photoshop{
     width: 0%;
@@ -305,7 +305,23 @@ html{
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 75%;}
+}
+.skills .skill .openxava{
+    width: 0%;
+    animation: 2s openxava forwards;
+}
+@keyframes openxava {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .joget{
+    width: 0%;
+    animation: 2s joget forwards;
+}
+@keyframes joget {
+    0%{width: 0%;}
+    100%{width: 70%;}
 }
 .skills .skill .comunicacion{
     width: 0%;
@@ -313,7 +329,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 48%;}
+    100%{width: 60%;}
 }
 .skills .skill .trabajo{
     width: 0%;
@@ -321,7 +337,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 35%;}
+    100%{width: 50%;}
 }
 .skills .skill .creatividad{
     width: 0%;
